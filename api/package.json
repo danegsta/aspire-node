@@ -1,0 +1,32 @@
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "description": "TODO API with PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.9.0",
+    "@opentelemetry/auto-instrumentations-node": "^0.40.0",
+    "@opentelemetry/exporter-logs-otlp-grpc": "^0.206.0",
+    "@opentelemetry/exporter-metrics-otlp-grpc": "^0.45.0",
+    "@opentelemetry/exporter-trace-otlp-grpc": "^0.45.0",
+    "@opentelemetry/instrumentation-redis-4": "^0.48.0",
+    "@opentelemetry/sdk-logs": "^0.206.0",
+    "@opentelemetry/sdk-metrics": "^1.17.0",
+    "@opentelemetry/sdk-node": "^0.45.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "redis": "^4.6.8"
+  },
+  "keywords": [
+    "todo",
+    "api",
+    "postgresql"
+  ],
+  "author": "",
+  "license": "ISC"
+}
