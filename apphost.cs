@@ -7,8 +7,6 @@
 
 var builder = DistributedApplication.CreateBuilder(args);
 
-builder.AddCertificateAuthorityCollection("bundle");
-
 var pg = builder.AddPostgres("pg").AddDatabase("todos");
 var cache = builder.AddRedis("cache");
 
